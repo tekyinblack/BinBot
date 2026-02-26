@@ -1,0 +1,8 @@
+This is the first version of the binbot code used primarily for demonstrations.
+As it is, it runs as a line follower using the Cytron Makerline board, and will follow a line until either
+one of the two ultrasonic sensor inputs detects an obstacle
+If the lower sensor detects, the the robot stops and waits until clear. The ntention is to add a horn and potentially a
+library of verbal warnings as well.
+If the upper sensor is triggered, teh robot stops and opens the bin for ten seconds to allow a deposit and then
+closes teh bin, and if there ar no further obstructions, continues line following.
+
